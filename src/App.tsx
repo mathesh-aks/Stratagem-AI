@@ -13,15 +13,15 @@ export default function App() {
       id: '1',
       role: 'assistant',
       content: JSON.stringify({
-        summary: "Welcome to Stratagem AI V2.0.",
-        analysis: "Your Advanced Strategic Intelligence Platform for IT Companies.\n\nI can help you with:\n• AI Intelligence & Sales Automation\n• Reporting & Business Analytics\n• Client Management & Retention\n• SaaS Workspace & Collaboration\n• Performance & Usage Insights",
-        recommendation: "How can I assist you today?",
+        summary: "Welcome to Stratagem AI.",
+        analysis: "I am a Strategic Intelligence and Decision Support System built exclusively for IT Services and Consultancy Companies.\n\nI specialize in 10 core areas:\n1. Strategic & SWOT Analysis\n2. Risk Assessment & Mitigation\n3. Contract & Document Analysis\n4. Client Proposal Generation\n5. Execution & Action Planning\n6. Decision Support & Trade-off Analysis\n7. Business Performance Analysis\n8. IT Project Scope & Planning\n9. Competitive Intelligence\n10. Client Management & Retention Strategy",
+        recommendation: "How can I assist your business teams today?",
         execution: {
-          immediate: "Trigger one of our 16 specialized features across AI Intelligence, Analytics, or Client Management.",
-          short_term: "We will optimize your IT consultancy's performance through data-driven strategic insights."
+          immediate: "Describe a strategic challenge or upload a document for analysis.",
+          short_term: "We will develop a structured, actionable roadmap for your objectives."
         },
-        risks: [{ risk: "Market competition", severity: "Medium" }],
-        next_step: "What business objective can I help you analyze first?"
+        risks: [{ risk: "Strategic uncertainty", severity: "Medium" }],
+        next_step: "What strategic challenge can I help you with?"
       }),
       timestamp: new Date()
     }
